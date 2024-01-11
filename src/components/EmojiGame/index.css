@@ -1,0 +1,28 @@
+.app {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.emojis-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 90%;
+  margin-top: 50px;
+}
+
+.emojis-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.unordered-emojis {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
